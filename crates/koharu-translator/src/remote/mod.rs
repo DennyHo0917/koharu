@@ -53,14 +53,7 @@ pub(crate) async fn translate(
     };
     match selection.provider {
         Provider::ApiRoute => {
-            api_route::translate(
-                client,
-                &providers.api_route,
-                model()?,
-                generation,
-                request,
-            )
-            .await
+            api_route::translate(client, &providers.api_route, model()?, generation, request).await
         }
         Provider::AtlasCloud => {
             atlas_cloud::translate(

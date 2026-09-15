@@ -319,7 +319,6 @@
     "translation": "Convert source text to the target language."
   },
   "providerDescriptions": {
-    "api-route": "API Route hosted language models.",
     "atlas-cloud": "Atlas-hosted language models.",
     "caiyun": "Caiyun translation API.",
     "claude": "Anthropic Claude models.",
@@ -333,7 +332,8 @@
     "minimax": "MiniMax language models.",
     "openai": "OpenAI language models.",
     "openai-compatible": "Any server exposing an OpenAI-compatible API.",
-    "openrouter": "Models routed through OpenRouter."
+    "openrouter": "Models routed through OpenRouter.",
+    "api-route": "API Route hosted language models."
   },
   "resources": {
     "cpu": "CPU",

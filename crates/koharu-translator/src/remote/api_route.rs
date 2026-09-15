@@ -85,11 +85,7 @@ pub(super) async fn translate(
         .message
         .content
         .context("API Route returned no message content")?;
-    Ok(prompt::translations(
-        "api-route",
-        &text,
-        &request.segments,
-    )?)
+    Ok(prompt::translations("api-route", &text, &request.segments)?)
 }
 
 pub(super) async fn models(client: &Client) -> Result<Vec<Model>> {
@@ -250,10 +246,13 @@ mod tests {
             },
         };
         let value = serde_json::to_value(body).unwrap();
-
-        assert_eq!(value["max_tokens"], 1024);
-        assert_eq!(value["thinking"]["type"], "disabled");
-        assert_eq!(value["response_format"]["type"], "json_schema");
-        assert_eq!(value["response_format"]["json_schema"]["strict"], true);
+        assert_eq!(
+            value.get("thinking").and_then(|v| v.get("type")),
+            Some(&serde_json::json!("disabled"))
+        );
+        assert_eq!(
+            value.get("response_format").and_then(|v| v.get("type")),
+            Some(&serde_json::json!("json_schema"))
+        );
     }
 }

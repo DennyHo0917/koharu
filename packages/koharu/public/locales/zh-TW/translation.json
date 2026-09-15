@@ -332,7 +332,8 @@
     "minimax": "MiniMax 語言模型。",
     "openai": "OpenAI 語言模型。",
     "openai-compatible": "任何提供 OpenAI 相容 API 的伺服器。",
-    "openrouter": "透過 OpenRouter 路由的模型。"
+    "openrouter": "透過 OpenRouter 路由的模型。",
+    "api-route": "由 API Route 託管的語言模型。"
   },
   "resources": {
     "cpu": "CPU",

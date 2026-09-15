@@ -6,9 +6,9 @@ use strum::{Display, EnumIter, EnumString, IntoStaticStr, VariantArray};
 use crate::{
     local::LocalConfig,
     remote::{
-        ApiRouteConfig, AtlasCloudConfig, CaiyunConfig, ClaudeConfig, DeepLConfig, DeepSeekConfig, GeminiConfig,
-        GoogleCloudConfig, GrokConfig, LmStudioConfig, MiniMaxConfig, OpenAiCompatibleConfig,
-        OpenAiConfig, OpenRouterConfig,
+        ApiRouteConfig, AtlasCloudConfig, CaiyunConfig, ClaudeConfig, DeepLConfig, DeepSeekConfig,
+        GeminiConfig, GoogleCloudConfig, GrokConfig, LmStudioConfig, MiniMaxConfig,
+        OpenAiCompatibleConfig, OpenAiConfig, OpenRouterConfig,
     },
 };
 

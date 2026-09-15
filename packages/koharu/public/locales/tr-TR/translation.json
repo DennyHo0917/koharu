@@ -332,7 +332,8 @@
     "minimax": "MiniMax dil modelleri.",
     "openai": "OpenAI dil modelleri.",
     "openai-compatible": "OpenAI uyumlu API sunan herhangi bir sunucu.",
-    "openrouter": "OpenRouter üzerinden yönlendirilen modeller."
+    "openrouter": "OpenRouter üzerinden yönlendirilen modeller.",
+    "api-route": "API Route üzerinde barındırılan dil modelleri."
   },
   "resources": {
     "cpu": "CPU",

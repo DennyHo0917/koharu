@@ -332,7 +332,8 @@
     "minimax": "MiniMax 言語モデル。",
     "openai": "OpenAI の言語モデル。",
     "openai-compatible": "OpenAI 互換 API を公開する任意のサーバー。",
-    "openrouter": "OpenRouter 経由で提供されるモデル。"
+    "openrouter": "OpenRouter 経由で提供されるモデル。",
+    "api-route": "API Route でホストされる言語モデル。"
   },
   "resources": {
     "cpu": "CPU",

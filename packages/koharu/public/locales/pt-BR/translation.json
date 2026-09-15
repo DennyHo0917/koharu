@@ -332,7 +332,8 @@
     "minimax": "Modelos de linguagem da MiniMax.",
     "openai": "Modelos de linguagem da OpenAI.",
     "openai-compatible": "Qualquer servidor que ofereça uma API compatível com a OpenAI.",
-    "openrouter": "Modelos roteados pelo OpenRouter."
+    "openrouter": "Modelos roteados pelo OpenRouter.",
+    "api-route": "Modelos de linguagem hospedados pela API Route."
   },
   "resources": {
     "cpu": "CPU",

@@ -332,7 +332,8 @@
     "minimax": "MiniMax 언어 모델입니다.",
     "openai": "OpenAI 언어 모델입니다.",
     "openai-compatible": "OpenAI 호환 API를 제공하는 모든 서버입니다.",
-    "openrouter": "OpenRouter를 통해 라우팅되는 모델입니다."
+    "openrouter": "OpenRouter를 통해 라우팅되는 모델입니다.",
+    "api-route": "API Route에서 호스팅되는 언어 모델입니다."
   },
   "resources": {
     "cpu": "CPU",

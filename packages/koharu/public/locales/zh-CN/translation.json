@@ -319,7 +319,6 @@
     "translation": "将原文翻译为目标语言。"
   },
   "providerDescriptions": {
-    "api-route": "由 API Route 托管的语言模型。",
     "atlas-cloud": "由 Atlas 托管的语言模型。",
     "caiyun": "Caiyun 翻译 API。",
     "claude": "Anthropic Claude 模型。",
@@ -333,7 +332,8 @@
     "minimax": "MiniMax 语言模型。",
     "openai": "OpenAI 语言模型。",
     "openai-compatible": "任何提供 OpenAI 兼容 API 的服务器。",
-    "openrouter": "通过 OpenRouter 路由的模型。"
+    "openrouter": "通过 OpenRouter 路由的模型。",
+    "api-route": "由 API Route 托管的语言模型。"
   },
   "resources": {
     "cpu": "CPU",
