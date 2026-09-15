@@ -108,6 +108,7 @@ fn prepare_secret(args: &Args, provider: Provider) -> Result<()> {
     let provider_id: &'static str = provider.into();
     let Some((variable, required)) = (match provider {
         Provider::Local => None,
+        Provider::ApiRoute => Some(("API_ROUTE_API_KEY", true)),
         Provider::AtlasCloud => Some(("ATLASCLOUD_API_KEY", true)),
         Provider::OpenAi => Some(("OPENAI_API_KEY", true)),
         Provider::Gemini => Some(("GEMINI_API_KEY", true)),
